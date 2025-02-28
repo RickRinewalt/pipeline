@@ -1,7 +1,28 @@
 # Shameless vibe-coding CI/CD pipeline
 - Details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
-## Tools
+## Components
+
+```mermaid
+graph LR
+    A[Visual Studio Code]
+    B[GitHub Codespace]
+    C["GitHub Repository"]
+    D["Roo Code (VS Code Extension)"]
+    E["Cline Recursive Chain of Thought System"]
+    F[GitHub Copilot Pro]
+    G["Anthropic Claude Sonnet 3.5"]
+    H["Netlify (CI/CD Deployment)"]
+
+    A --> B
+    B -->|Push Code| C
+    D --> A
+    E --> D
+    F --> D
+    G --> F
+    C -->|Triggers Build| H
+```
+
 ### Visual Studio Code
 - Our code editor - https://code.visualstudio.com/
 
@@ -21,7 +42,7 @@
 - Monthly subscription providing access to a range of language models - https://github.com/features/copilot/plans?cft=copilot_li.features_copilot
 
 ### Anthropic Claude Sonnet 3.5
-- Our coding model of choice - https://claude.ai/
+- Our coding model of choice. Running through Github Copilot Pro - https://claude.ai/
 
 ### Netlify
 - CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
