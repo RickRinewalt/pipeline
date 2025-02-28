@@ -1,8 +1,6 @@
 # Shameless vibe-coding CI/CD pipeline
 - Details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
-## Components
-
 ```mermaid
 graph LR
     A[Visual Studio Code]
@@ -23,6 +21,7 @@ graph LR
     C -->|Triggers Build| H
 ```
 
+## Components
 ### Visual Studio Code
 - Our code editor - https://code.visualstudio.com/
 
