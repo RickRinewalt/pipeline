@@ -1,7 +1,9 @@
 # Shameless vibe-coding CI/CD pipeline
 High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
-The goals are sustainability and reliability, I have to say I'm pretty stoked with the results. I'm making awesome progress with my projects, while paying a flat monthly fee for the best coding model available, and I can rely on this system to give me the outcome I want without losing the plot (much).
+The goals are sustainability and reliability, I have to say I'm pretty stoked with the results. 
+
+I'm making awesome progress with my projects, while paying a flat monthly fee for the best coding model available, and I can rely on this system to give me the outcome I want without losing the plot (much).
 
 Thanks to Waylon for sharing your discoveries!
 
