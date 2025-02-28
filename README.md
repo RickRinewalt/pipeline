@@ -26,7 +26,7 @@ graph LR
 
     A --> B
     B -->|Push Code| C
-    D --> A
+    D --> B
     E --> D
     F --> D
     G --> F
