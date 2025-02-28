@@ -7,9 +7,10 @@ I'm making awesome progress with my projects, while paying a flat monthly fee fo
 
 Thanks to Waylon for sharing your discoveries!
 
-It's probably not for everyone, if you are just wanting something easy to help you prototype an idea then you might be better off with https://v0.dev/ or lovable. 
+## Who this is for
+If you are just wanting something easy to help you prototype an idea then you might be better off with https://v0.dev/ or https://lovable.dev/. 
 
-If you are looking for something a bit more robust, then this is the way.
+If you dont mind getting a little technical and are looking for something a bit more robust, then this is the way.
 
 ```mermaid
 graph LR
