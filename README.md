@@ -41,7 +41,7 @@ graph LR
 - Monthly subscription providing access to a range of language models - https://github.com/features/copilot/plans?cft=copilot_li.features_copilot
 
 ### Anthropic Claude Sonnet 3.5
-- Our coding model of choice. Running through Github Copilot Pro - https://claude.ai/
+- Coding model of choice. Running through Github Copilot Pro - https://claude.ai/
 
 ### Netlify
 - CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
