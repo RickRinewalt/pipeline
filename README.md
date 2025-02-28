@@ -1,6 +1,8 @@
 # Shameless vibe-coding CI/CD pipeline
 High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
+The goals are sustainability and reliability, I have to say I'm pretty stoked with the results. 
+
 ```mermaid
 graph LR
     A[Visual Studio Code]
