@@ -12,6 +12,7 @@ If you are just wanting something easy to help you prototype an idea then you mi
 
 If you dont mind getting a little technical and are looking for something a bit more robust, then this is the way.
 
+## Component diagram
 ```mermaid
 graph LR
     A[Visual Studio Code]
