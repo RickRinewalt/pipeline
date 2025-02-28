@@ -33,21 +33,3 @@ https://claude.ai/
 ### Netlify
 CI/CD deployment target. Hosts our website, provides continuous deployment on code commit.
 https://www.netlify.com/
-
-graph LR
-    A[Visual Studio Code]
-    B[GitHub Codespace]
-    C[GitHub Repository<br>https://github.com/]
-    D[Roo Code<br>(VS Code Extension)]
-    E[Cline Recursive Chain of Thought System]
-    F[GitHub Copilot Pro]
-    G[Anthropic Claude Sonnet 3.5]
-    H[Netlify<br>(CI/CD Deployment)]
-
-    A -->|Push Code| C
-    B -->|Push Code| C
-    D --> A
-    E --> D
-    F --> D
-    G --> D
-    C -->|Triggers Build| H
