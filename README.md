@@ -1,7 +1,7 @@
 # Shameless vibe-coding CI/CD pipeline
 High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
-The goals for my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
+The main requirements in my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
 
 I'm making awesome progress with my projects, while paying a flat monthly fee for the best coding model available, and I can rely on this system to give me the outcome I want without it losing the plot (much).
 
