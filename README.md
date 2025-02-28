@@ -1,5 +1,5 @@
 # Shameless vibe-coding CI/CD pipeline
-- Details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
+High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
 ```mermaid
 graph LR
