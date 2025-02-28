@@ -7,7 +7,7 @@ I'm making awesome progress with my projects, while paying a flat monthly fee fo
 
 Thanks to Waylon for sharing your discoveries!
 
-It's probably not for everyone, if you are just wanting something easy to help you prototype an idea then you might be better off with lovable. 
+It's probably not for everyone, if you are just wanting something easy to help you prototype an idea then you might be better off with https://v0.dev/ or lovable. 
 
 If you are looking for something a bit more robust, then this is the way.
 
