@@ -84,7 +84,7 @@ graph TB
 8. Follow the instructions to setup the *Cline Recursive Chain-of-Thought System* provided in the documentation
 9. Where it refers to the step to *Set Up Cline Extension*, the associated steps in Roo (as a fork of Cline) are similar: In the *Prompts* menu for Roo Code, update the *Custom Instructions for All Modes* to use the custom instructions provided.
 10. Your setup is complete! You're ready to start vibe coding, either:
-    a. Copy your existing project into *src/* and run these commands:
-        - Perform initial setup and populate dependency trackers.
-        - Review the current state and suggest next steps.
-    b. Or for a brand new project, feed in your requirements and get building!
+    * Copy your existing project into *src/* and run these commands:
+        * Perform initial setup and populate dependency trackers.
+        * Review the current state and suggest next steps.
+    * Or for a brand new project, feed in your requirements and get building!
