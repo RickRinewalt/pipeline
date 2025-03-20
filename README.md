@@ -22,17 +22,18 @@ graph LR
     crct["Cline Recursive Chain of Thought System"]
     github_copilot[GitHub Copilot Pro]
     vscode_lmapi[VS Code Language Model API]
-    sonnet["Anthropic Claude Sonnet 3.5"]
+    sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
     netlify["Netlify (CI/CD Deployment)"]
 
-    vscode --> codespace
-    codespace -->|Push Code| github
-    roo --> codespace
-    crct --> roo
-    github_copilot --> vscode_lmapi
-    vscode_lmapi --> roo
-    sonnet --> github_copilot
-    github -->|Triggers Build| netlify
+    github --> |Triggers Build| netlify
+    codespace --> |Push Code| github
+    vscode --> |Develop/run code| codespace
+    roo --> |Vibe coding| codespace
+    crct --> |Facilitate memory| roo
+    vscode_lmapi --> |Intermediate CoPilot LLMs| roo
+    github_copilot --> |LLM service layer| vscode_lmapi
+    sonnet --> |Generate code| github_copilot
+    
 ```
 
 ## Components
