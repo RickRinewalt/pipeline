@@ -37,7 +37,7 @@ graph LR
 ```
 
 ```mermaid
-graph LR
+graph TB
     vscode[Visual Studio Code]
     codespace[GitHub Codespace]
     github["GitHub Repository"]
