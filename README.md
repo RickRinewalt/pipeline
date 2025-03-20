@@ -43,7 +43,7 @@ graph TB
     roo --> |Vibe coding| codespace
 
     vscode --> |Develop/run code| codespace
-    codespace --> |Push Code| github
+    codespace --> |Code commit| github
     github --> |Triggers Build| netlify
 
 ```
