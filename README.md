@@ -24,7 +24,7 @@ graph TB
         sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
     end
 
-    subgraph DEV [Development Environment]
+    subgraph DEV [Integrated Development Environment]
         direction TB
         vscode[Visual Studio Code]
         codespace[GitHub Codespace]
