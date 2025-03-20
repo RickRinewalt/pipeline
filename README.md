@@ -32,15 +32,16 @@ graph TB
         netlify["Netlify (CI/CD Deployment)"]
     end
 
-    vscode --> |Develop/run code| codespace
-    codespace --> |Push Code| github
-    github --> |Triggers Build| netlify
-
     sonnet --> |Generate code| github_copilot
     github_copilot --> |LLM service layer| vscode_lmapi
     vscode_lmapi --> |Intermediate CoPilot LLMs| roo
     crct --> |Facilitate memory| roo
     roo --> |Vibe coding| codespace
+
+    vscode --> |Develop/run code| codespace
+    codespace --> |Push Code| github
+    github --> |Triggers Build| netlify
+
 ```
 
 ## Components
