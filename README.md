@@ -72,7 +72,7 @@ graph TB
 ### Netlify
 - CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
 
-## Setup
+## Setup instructions
 1. Subscribe to *GitHub Copilot Pro*.
 2. Install *VS Code*.
 3. While in VS Code, sign in to *GitHub Copilot*.
