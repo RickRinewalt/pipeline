@@ -24,7 +24,7 @@ graph TB
         vscode_lmapi[VS Code Language Model API]
         github_copilot[GitHub Copilot Pro]
         sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
-        other_model[Any other LLM provided by GitHub Copilot]
+        other_model["Any other LLM provided by GitHub Copilot"]
     end
 
     subgraph DEV [Development Environment]
