@@ -36,6 +36,32 @@ graph LR
     
 ```
 
+```mermaid
+graph LR
+    codespace[GitHub Codespace]
+    github["GitHub Repository"]
+    netlify["Netlify (CI/CD Deployment)"]
+
+    subgraph LLM_TB [LLM Components]
+      direction TB
+      vscode[Visual Studio Code]
+      roo["Roo Code (VS Code Extension)"]
+      crct["Cline Recursive Chain of Thought System"]
+      vscode_lmapi[VS Code Language Model API]
+      github_copilot[GitHub Copilot Pro]
+      sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
+    end
+
+    github --> |Triggers Build| netlify
+    codespace --> |Push Code| github
+    vscode --> |Develop/run code| codespace
+    roo --> |Vibe coding| codespace
+    crct --> |Facilitate memory| roo
+    vscode_lmapi --> |Intermediate CoPilot LLMs| roo
+    github_copilot --> |LLM service layer| vscode_lmapi
+    sonnet --> |Generate code| github_copilot
+```
+
 ## Components
 ### Visual Studio Code
 - Our code editor - https://code.visualstudio.com/
