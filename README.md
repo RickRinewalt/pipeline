@@ -1,9 +1,7 @@
 # Shameless vibe-coding CI/CD pipeline
-High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
+High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.<br>
 
-<br>
-**Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
-<br>
+**Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**<br>
 
 The main requirements in my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
 
