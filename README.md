@@ -15,24 +15,24 @@ If you dont mind getting a little technical and are looking for something a bit 
 ## Component diagram
 ```mermaid
 graph LR
-    A[Visual Studio Code]
-    B[GitHub Codespace]
-    C["GitHub Repository"]
-    D["Roo Code (VS Code Extension)"]
-    E["Cline Recursive Chain of Thought System"]
-    F[GitHub Copilot Pro]
-    I[VS Code Language Model API]
-    G["Anthropic Claude Sonnet 3.5"]
-    H["Netlify (CI/CD Deployment)"]
+    vscode[Visual Studio Code]
+    codespace[GitHub Codespace]
+    github["GitHub Repository"]
+    roo["Roo Code (VS Code Extension)"]
+    crct["Cline Recursive Chain of Thought System"]
+    github_copilot[GitHub Copilot Pro]
+    vscode_lmapi[VS Code Language Model API]
+    sonnet["Anthropic Claude Sonnet 3.5"]
+    netlify["Netlify (CI/CD Deployment)"]
 
-    A --> B
-    B -->|Push Code| C
-    D --> B
-    E --> D
-    F --> I
-    I --> D
-    G --> F
-    C -->|Triggers Build| H
+    vscode --> codespace
+    codespace -->|Push Code| github
+    roo --> codespace
+    crct --> roo
+    github_copilot --> vscode_lmapi
+    vscode_lmapi --> roo
+    sonnet --> github_copilot
+    github -->|Triggers Build| netlify
 ```
 
 ## Components
