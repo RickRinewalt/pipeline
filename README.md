@@ -38,13 +38,13 @@ graph LR
 
 ```mermaid
 graph LR
+    vscode[Visual Studio Code]
     codespace[GitHub Codespace]
     github["GitHub Repository"]
     netlify["Netlify (CI/CD Deployment)"]
 
     subgraph LLM_TB [LLM Components]
       direction TB
-      vscode[Visual Studio Code]
       roo["Roo Code (VS Code Extension)"]
       crct["Cline Recursive Chain of Thought System"]
       vscode_lmapi[VS Code Language Model API]
