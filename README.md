@@ -24,6 +24,7 @@ graph TB
         vscode_lmapi[VS Code Language Model API]
         github_copilot[GitHub Copilot Pro]
         sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
+        other_model[Any other LLM provided by GitHub Copilot]
     end
 
     subgraph DEV [Development Environment]
@@ -35,8 +36,9 @@ graph TB
     end
 
     sonnet --> |Generate code| github_copilot
+    other_model --> |Generate code| github_copilot
     github_copilot --> |LLM service layer| vscode_lmapi
-    vscode_lmapi --> |Intermediate CoPilot LLMs| roo
+    vscode_lmapi --> |Intermediate Copilot LLMs| roo
     crct --> |Facilitate memory| roo
     roo --> |Vibe coding| codespace
 
