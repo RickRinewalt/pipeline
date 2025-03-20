@@ -82,11 +82,13 @@ graph TB
 5. Ensure GitHub Copilot and GitHub Copilot Chat **extensions** are installed in the Codespace.
 6. Now install **Roo Code** extention in the same Codespace.
 7. Configure the **API Provider** in the **Settings** for Roo Code - be patient, it takes a few moments for the **Language Model selector** to appear...
+
 ![image](https://github.com/cgbarlow/pipeline/blob/main/vscode_lmapi_providers.png)
+
 8. Follow the instructions to setup the **Cline Recursive Chain-of-Thought System** provided in the documentation.
 9. Where it refers to the step to **Set Up Cline Extension**, the associated steps in Roo (as a fork of Cline) are similar:
     * In the **Prompts** menu for Roo Code, update the **Custom Instructions for All Modes** to use the custom instructions provided.
-11. Your setup is complete! You're ready to start vibe coding, either:
+10. Your setup is complete! You're ready to start vibe coding, either:
     * Copy an existing project into **src/** and run these commands:
         * *Perform initial setup and populate dependency trackers*
         * *Review the current state and suggest next steps*
