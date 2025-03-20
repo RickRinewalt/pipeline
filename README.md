@@ -20,7 +20,7 @@ graph TB
     github["GitHub Repository"]
     netlify["Netlify (CI/CD Deployment)"]
 
-    subgraph LLM_TB [LLM Components]
+    subgraph LLM_TB [AI Agent Components]
       direction TB
       roo["Roo Code (VS Code Extension)"]
       crct["Cline Recursive Chain of Thought System"]
