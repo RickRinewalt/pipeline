@@ -1,7 +1,9 @@
 # Shameless vibe-coding CI/CD pipeline
 High-level details of the current development pipeline I'm using. Expect this to evolve as tweaks and improvements are made.
 
-*Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!*
+
+**Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
+
 
 The main requirements in my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
 
@@ -75,18 +77,18 @@ graph TB
 - CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
 
 ## Setup instructions
-1. Subscribe to *GitHub Copilot Pro*.
-2. Install *VS Code*.
-3. While in VS Code, sign in to *GitHub Copilot*.
-4. Now create a *New Codespace*.
-5. Ensure GitHub Copilot and GitHub Copilot Chat *extensions* are installed in the Codespace.
-6. Now install *Roo Code* extention in the same Codespace.
-7. Configure the *API Provider* in the *Settings* for Roo Code - be patient, it takes a few moments for the *Language Model selector* to appear...
+1. Subscribe to **GitHub Copilot Pro**.
+2. Install **VS Code**.
+3. While in VS Code, sign in to **GitHub Copilot**.
+4. Now create a **New Codespace**.
+5. Ensure GitHub Copilot and GitHub Copilot Chat **extensions** are installed in the Codespace.
+6. Now install **Roo Code** extention in the same Codespace.
+7. Configure the **API Provider** in the **Settings** for Roo Code - be patient, it takes a few moments for the **Language Model selector** to appear...
 ![image](https://github.com/cgbarlow/pipeline/blob/main/vscode_lmapi_providers.png)
-8. Follow the instructions to setup the *Cline Recursive Chain-of-Thought System* provided in the documentation
-9. Where it refers to the step to *Set Up Cline Extension*, the associated steps in Roo (as a fork of Cline) are similar: In the *Prompts* menu for Roo Code, update the *Custom Instructions for All Modes* to use the custom instructions provided.
+8. Follow the instructions to setup the **Cline Recursive Chain-of-Thought System** provided in the documentation
+9. Where it refers to the step to **Set Up Cline Extension**, the associated steps in Roo (as a fork of Cline) are similar: In the **Prompts** menu for Roo Code, update the **Custom Instructions for All Modes** to use the custom instructions provided.
 10. Your setup is complete! You're ready to start vibe coding, either:
-    * Copy an existing project into *src/* and run these commands:
+    * Copy an existing project into **src/** and run these commands:
         * Perform initial setup and populate dependency trackers.
         * Review the current state and suggest next steps.
     * Or for a brand new project, feed in your requirements and get building!
