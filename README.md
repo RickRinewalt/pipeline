@@ -15,18 +15,21 @@ If you dont mind getting a little technical and are looking for something a bit 
 ## Component diagram
 ```mermaid
 graph TB
-    vscode[Visual Studio Code]
-    codespace[GitHub Codespace]
-    github["GitHub Repository"]
-    netlify["Netlify (CI/CD Deployment)"]
+    subgraph DEV [Development Environment]
+        direction TB
+        vscode[Visual Studio Code]
+        codespace[GitHub Codespace]
+        github["GitHub Repository"]
+        netlify["Netlify (CI/CD Deployment)"]
+    end
 
-    subgraph LLM_TB [AI Agent Components]
-      direction TB
-      roo["Roo Code (VS Code Extension)"]
-      crct["Cline Recursive Chain of Thought System"]
-      vscode_lmapi[VS Code Language Model API]
-      github_copilot[GitHub Copilot Pro]
-      sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
+    subgraph AI [AI Agent Components]
+        direction TB
+        roo["Roo Code (VS Code Extension)"]
+        crct["Cline Recursive Chain of Thought System"]
+        vscode_lmapi[VS Code Language Model API]
+        github_copilot[GitHub Copilot Pro]
+        sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
     end
 
     github --> |Triggers Build| netlify
