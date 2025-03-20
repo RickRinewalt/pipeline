@@ -21,6 +21,7 @@ graph LR
     D["Roo Code (VS Code Extension)"]
     E["Cline Recursive Chain of Thought System"]
     F[GitHub Copilot Pro]
+    I[VS Code Language Model API]
     G["Anthropic Claude Sonnet 3.5"]
     H["Netlify (CI/CD Deployment)"]
 
@@ -28,7 +29,8 @@ graph LR
     B -->|Push Code| C
     D --> B
     E --> D
-    F --> D
+    F --> I
+    I --> D
     G --> F
     C -->|Triggers Build| H
 ```
@@ -48,6 +50,9 @@ graph LR
 
 ### Cline Recursive Chain of Thought System
 - System prompt for roo, essentially "memory" providing dynamic context for code changes - https://github.com/RPG-fan/Cline-Recursive-Chain-of-Thought-System-CRCT-
+
+### VS Code Language Model API With Roo Code
+- This API allows extensions to provide access to language models directly within VS Code. This is our method to use models from GitHub Copilot - https://docs.roocode.com/providers/vscode-lm
 
 ### Github Copilot Pro
 - Monthly subscription providing access to a range of language models - https://github.com/features/copilot/plans?cft=copilot_li.features_copilot
