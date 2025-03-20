@@ -13,28 +13,27 @@ If you are just wanting something easy to help you prototype an idea then you mi
 If you dont mind getting a little technical and are looking for something a bit more robust, then this is the way.
 
 ## Component diagram
-```mermaid
-graph LR
-    vscode[Visual Studio Code]
-    codespace[GitHub Codespace]
-    github["GitHub Repository"]
-    roo["Roo Code (VS Code Extension)"]
-    crct["Cline Recursive Chain of Thought System"]
-    github_copilot[GitHub Copilot Pro]
-    vscode_lmapi[VS Code Language Model API]
-    sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
-    netlify["Netlify (CI/CD Deployment)"]
-
-    github --> |Triggers Build| netlify
-    codespace --> |Push Code| github
-    vscode --> |Develop/run code| codespace
-    roo --> |Vibe coding| codespace
-    crct --> |Facilitate memory| roo
-    vscode_lmapi --> |Intermediate CoPilot LLMs| roo
-    github_copilot --> |LLM service layer| vscode_lmapi
-    sonnet --> |Generate code| github_copilot
-    
-```
+%% ```mermaid
+%% graph LR
+%%     vscode[Visual Studio Code]
+%%     codespace[GitHub Codespace]
+%%     github["GitHub Repository"]
+%%     roo["Roo Code (VS Code Extension)"]
+%%     crct["Cline Recursive Chain of Thought System"]
+%%     github_copilot[GitHub Copilot Pro]
+%%     vscode_lmapi[VS Code Language Model API]
+%%     sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
+%%     netlify["Netlify (CI/CD Deployment)"]
+%% 
+%%     github --> |Triggers Build| netlify
+%%     codespace --> |Push Code| github
+%%     vscode --> |Develop/run code| codespace
+%%     roo --> |Vibe coding| codespace
+%%     crct --> |Facilitate memory| roo
+%%     vscode_lmapi --> |Intermediate CoPilot LLMs| roo
+%%     github_copilot --> |LLM service layer| vscode_lmapi
+%%     sonnet --> |Generate code| github_copilot
+%% ```
 
 ```mermaid
 graph TB
@@ -56,10 +55,10 @@ graph TB
     codespace --> |Push Code| github
     vscode --> |Develop/run code| codespace
     roo --> |Vibe coding| codespace
-    crct --> |Facilitate memory| roo
     vscode_lmapi --> |Intermediate CoPilot LLMs| roo
     github_copilot --> |LLM service layer| vscode_lmapi
     sonnet --> |Generate code| github_copilot
+    crct --> |Facilitate memory| roo
 ```
 
 ## Components
