@@ -88,6 +88,6 @@ graph TB
     * In the **Prompts** menu for Roo Code, update the **Custom Instructions for All Modes** to use the custom instructions provided.
 11. Your setup is complete! You're ready to start vibe coding, either:
     * Copy an existing project into **src/** and run these commands:
-        * Perform initial setup and populate dependency trackers.
-        * Review the current state and suggest next steps.
+        * 'Perform initial setup and populate dependency trackers'
+        * 'Review the current state and suggest next steps'
     * Or for a brand new project, feed in your requirements and get building!
