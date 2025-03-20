@@ -24,7 +24,7 @@ graph TB
         sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
     end
 
-    subgraph DEV [Integrated Development Environment]
+    subgraph DEV [Development Environment]
         direction TB
         vscode[Visual Studio Code]
         codespace[GitHub Codespace]
@@ -71,3 +71,8 @@ graph TB
 
 ### Netlify
 - CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
+
+## Setup
+1. Subscribe to [GitHub Copilot Pro](#Github-Copilot-Pro).
+2. Install Visual Studio Code.
+3. 
