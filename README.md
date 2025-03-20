@@ -44,7 +44,7 @@ graph TB
 
     vscode --> |Develop/run code| codespace
     codespace --> |Code commit| github
-    github --> |Triggers Build| netlify
+    github --> |Build triggered| netlify
 
 ```
 
