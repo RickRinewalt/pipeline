@@ -91,7 +91,15 @@ graph TB
 9. Where it refers to the step to **Set Up Cline Extension**, the associated steps in Roo (as a fork of Cline) are similar:
     * In the **Prompts** menu for Roo Code, update the **Custom Instructions for All Modes** to use the custom instructions provided.
 10. Your setup is complete! You're ready to start vibe coding, either:
-    * Copy an existing project into **src/** and run these commands:
+    * Copy an existing project into **src/** and run these commands in Roo Code:
         * *Perform initial setup and populate dependency trackers*
         * *Review the current state and suggest next steps*
     * Or for a brand new project, feed in your requirements and get building!
+11. When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
+
+    ![image](https://github.com/cgbarlow/pipeline/blob/main/vscode_lmapi_providers.png)
+
+13. Select **GitHub** and enter your repo.
+14. Once Netlify is asetup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
+15. If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
+
