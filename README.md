@@ -97,7 +97,7 @@ graph TB
     * Or for a brand new project, feed in your requirements and get building!
 11. When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
 
-    ![image](https://github.com/cgbarlow/pipeline/blob/main/vscode_lmapi_providers.png)
+    ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
 
 13. Select **GitHub** and enter your repo.
 14. Once Netlify is asetup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
