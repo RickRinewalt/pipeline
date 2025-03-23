@@ -85,7 +85,7 @@ graph TB
 6. Now install **Roo Code** extention in the same Codespace.
 7. Configure the **API Provider** in the **Settings** for Roo Code - be patient, it takes a few moments for the **Language Model selector** to appear...
 
-![image](https://github.com/cgbarlow/pipeline/blob/main/vscode_lmapi_providers.png)
+    ![image](https://github.com/cgbarlow/pipeline/blob/main/vscode_lmapi_providers.png)
 
 8. Follow the instructions to setup the **Cline Recursive Chain-of-Thought System** provided in the documentation.
 9. Where it refers to the step to **Set Up Cline Extension**, the associated steps in Roo (as a fork of Cline) are similar:
