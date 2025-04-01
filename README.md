@@ -23,7 +23,7 @@ graph TB
         crct["Cline Recursive Chain of Thought System"]
         vscode_lmapi[VS Code Language Model API]
         github_copilot[GitHub Copilot Pro]
-        sonnet["Anthropic Claude Sonnet 3.5 (LLM)"]
+        sonnet["Anthropic Claude Sonnet (LLM)"]
         other_model["Any other LLM provided by GitHub Copilot"]
     end
 
