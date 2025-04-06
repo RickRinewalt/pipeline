@@ -1,4 +1,4 @@
-# Getting the most out of vibe coding
+# Get the most out of vibe coding - define your tech stack
 When using an AI model to help you coding your projects, it pays to give thought to and be clear about your requirements up front. Giving the model some constraints via a well-trodden framework will increase your chances of success
 
 So in essence try to be a more of a "vibe engineer" than a "vibe coder". You will get less grey hairs that way.
