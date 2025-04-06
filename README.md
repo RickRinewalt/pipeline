@@ -99,7 +99,8 @@ graph TB
 
     ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
 
-13. Select **GitHub** and enter your repo.
-14. Once Netlify is setup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
-15. If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
+12. Select **GitHub** and enter your repo.
+13. Once Netlify is setup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
+14. If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
+15. **Top tip:** Rather than leaving the AI model to its own devices, it pays to use a pre-defined **[tech stack](techstacks.md)** in your projects. This is sure to increase your chances of success.
 
