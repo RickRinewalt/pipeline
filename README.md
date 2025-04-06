@@ -9,9 +9,6 @@ I'm making awesome progress with my projects, while paying a flat monthly fee fo
 
 Thanks to Waylon for sharing your discoveries!
 
-<!-- START doctoc -->
-<!-- END doctoc -->
-
 ## Who this is for
 If you are just wanting something easy to help you prototype an idea then you might be better off with https://v0.dev/ or https://lovable.dev/. 
 
