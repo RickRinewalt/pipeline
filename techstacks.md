@@ -17,4 +17,4 @@ The flavour I'm using for my projects includes the following:
 - **React** – UI library
 - **Next.js** – React framework with routing, SSR (server-side rendering), SSG (static site generation)
 - **TypeScript** – Adds types to JavaScript (helps with catching errors early, code maintainability, and scalability)
-- **Tailwind CSS** – Utility-first CSS framework (modular CSS with less customisation)
+- **Tailwind CSS** – Utility-first CSS framework (modular CSS that reduces need for custom styling)
