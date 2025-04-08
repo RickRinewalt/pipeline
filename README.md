@@ -68,7 +68,7 @@ graph TB
 ### Github Copilot Pro
 - Monthly subscription providing access to a range of language models - https://github.com/features/copilot/plans?cft=copilot_li.features_copilot
 
-### Anthropic Claude Sonnet
+### Anthropic Claude Sonnet 3.4
 - Coding model of choice. Running through Github Copilot Pro - https://claude.ai/
 - *Note: at the time of writing, Sonnet 3.7 is not available through Github Copilot, when used via. VS Code Language Model API.*
 
