@@ -59,6 +59,10 @@ graph TB
 ### Roo Code
 - Autonomous coding agent (visual studio code extension) - https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline
 
+#### Custom agents
+- Business Analyst Agent (custom system prompt, useful to define business requirements before any code is generated)
+- [business_analyst_agent.md](busines_analyst_agent.md)
+
 ### Cline Recursive Chain of Thought System
 - System prompt for roo, essentially "memory" providing dynamic context for code changes - https://github.com/RPG-fan/Cline-Recursive-Chain-of-Thought-System-CRCT-
 
