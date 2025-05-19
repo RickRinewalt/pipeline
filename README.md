@@ -39,7 +39,7 @@ graph TB
     github_copilot --> |LLM service layer| vscode_lmapi
     vscode_lmapi --> |Intermediate Copilot LLMs| roo
     crct --> |Facilitate memory| roo
-    custom_agents --> |e.g. Business Analysis| roo
+    roo_agents --> |e.g. Business Analysis| roo
     roo --> |Vibe coding| codespace
 
     vscode --> |Develop/run code| codespace
