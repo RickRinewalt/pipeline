@@ -72,7 +72,7 @@ graph TB
 ### Github Copilot Pro
 - Monthly subscription providing access to a range of language models - https://github.com/features/copilot/plans?cft=copilot_li.features_copilot
 
-### Google Gemini 2.5 Pro 3.5
+### Google Gemini 2.5 Pro 2.5
 - Coding model of choice. Running through Github Copilot Pro - https://deepmind.google/technologies/gemini/pro/
 
 ### Netlify
