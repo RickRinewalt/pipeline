@@ -21,7 +21,7 @@ graph TB
         crct["Cline Recursive Chain of Thought System"]
         vscode_lmapi[VS Code Language Model API]
         github_copilot[GitHub Copilot Pro]
-        sonnet["Anthropic Claude Sonnet (LLM)"]
+        llm["Google Gemini 2.5 Pro (LLM)"]
         other_model["Any other LLM provided by GitHub Copilot"]
     end
 
@@ -33,7 +33,7 @@ graph TB
         netlify["Netlify (CI/CD Deployment)"]
     end
 
-    sonnet --> |Generate code| github_copilot
+    llm --> |Generate code| github_copilot
     other_model --> |Generate code| github_copilot
     github_copilot --> |LLM service layer| vscode_lmapi
     vscode_lmapi --> |Intermediate Copilot LLMs| roo
@@ -72,9 +72,8 @@ graph TB
 ### Github Copilot Pro
 - Monthly subscription providing access to a range of language models - https://github.com/features/copilot/plans?cft=copilot_li.features_copilot
 
-### Anthropic Claude Sonnet 3.5
-- Coding model of choice. Running through Github Copilot Pro - https://claude.ai/
-- *Note: at the time of writing, Sonnet 3.7 is not available through Github Copilot, when used via. VS Code Language Model API.*
+### Google Gemini 2.5 Pro 3.5
+- Coding model of choice. Running through Github Copilot Pro - https://deepmind.google/technologies/gemini/pro/
 
 ### Netlify
 - CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
