@@ -18,6 +18,7 @@ graph TB
     subgraph AI [AI Agent Components]
         direction TB
         roo["Roo Code (VS Code Extension)"]
+        roo_agents["Custom Agents"]
         crct["Cline Recursive Chain of Thought System"]
         vscode_lmapi[VS Code Language Model API]
         github_copilot[GitHub Copilot Pro]
@@ -38,6 +39,7 @@ graph TB
     github_copilot --> |LLM service layer| vscode_lmapi
     vscode_lmapi --> |Intermediate Copilot LLMs| roo
     crct --> |Facilitate memory| roo
+    custom_agents --> |e.g. Business Analysis| roo
     roo --> |Vibe coding| codespace
 
     vscode --> |Develop/run code| codespace
