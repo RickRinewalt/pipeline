@@ -26,6 +26,8 @@ List bullet links to each of the following sections (use markdown link syntax):
 
 * [Background](#background)
 * [Attempted Fixes](#attempted-fixes)
+* [Hypothesis](#hypothesis)
+* [Prior Research](#prior-research)
 * [Dependencies](#dependencies)
 
   * Under Dependencies, nest links to each individual file (these will correspond to H3 sections).
@@ -43,6 +45,15 @@ List and briefly describe each solution or workaround already tried that did not
 ### Hypothesis
 
 Provide your current hypothesis noting that this requires further research.
+
+### Prior Research
+Include any prior research they may relate to the problem.
+
+Add an H2 heading (`## Prior Research`)
+For each file:
+
+1. Use an H3 heading (`### path/to/file.ext`) showing its relative path.
+2. Immediately beneath, include a fenced code block (\`\`\`lang) containing the full contents of that file.
 
 ### Dependencies
 
