@@ -25,9 +25,6 @@ If you dont mind getting a little technical and are looking for something a bit 
 ### Claude Code
 - Autonomous coding agent (npm package) - https://docs.anthropic.com/en/docs/claude-code/overviewhttps://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline
 
-### Netlify
-- CI/CD deployment target. Hosts our website, provides continuous deployment on code commit - https://www.netlify.com/
-
 ## Setup instructions
 1. Subscribe to **Claude Code**.
 2. Create a repo in GitHub, tick the box that creates a **README.md**
