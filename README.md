@@ -23,8 +23,8 @@ If you dont mind getting a little technical and are looking for something a bit 
 - Cloud container based IDE - https://code.visualstudio.com/docs/remote/codespaces
 
 ### Claude Code
-- Autonomous coding agent (npm package) - https://docs.anthropic.com/en/docs/claude-code/overviewhttps://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline
-
+- Autonomous coding agent (npm package) - https://docs.anthropic.com/en/docs/claude-code/overview
+- 
 ## Setup instructions
 1. Subscribe to **Claude Code**.
 2. Create a repo in GitHub, tick the box that creates a **README.md**
