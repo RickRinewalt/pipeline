@@ -13,7 +13,7 @@ Enhanced protocol with research capabilities and proven implementation-first str
    - Store findings: `mcp__claude-flow__memory_usage` for coordination
 
 2. **MULTI-SOURCE RESEARCH**: Gather intelligence using all available resources:
-   - **Context7 MCP**: Use for TypeScript optimizations and bulk error suppression
+   - **Context7 MCP**: Search for intel on specific products, platforms, technologies
    - **WebSearch**: Search for latest best practices, error patterns, and solutions
    - **Codebase Analysis**: Use Grep, Glob, Read tools to understand current state
    - **GitHub Integration**: Check issues, PRs, workflow history using `gh` commands
