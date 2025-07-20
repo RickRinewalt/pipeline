@@ -1,7 +1,7 @@
 # Claude.md customisations
 
 ## Protocols (a.k.a. YOLO Protocols)
-Standard protocols to be executed when asked: 
+Standard protocols to be executed when asked, e.g. "Initialize CI protocol": 
 
 ### Continuous Integration (CI) protocol
 Enhanced protocol with research capabilities and proven implementation-first strategy. For systematic CI fixing, testing, committing regularly, push, PR, review, monitor build, repeat. The whole thing should run and repeat unattended with zero intervention; the monitoring of the active action and automated merge where possible is critical:
