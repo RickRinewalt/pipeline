@@ -13,7 +13,7 @@ Enhanced protocol with research capabilities and proven implementation-first str
    - Store findings: `mcp__claude-flow__memory_usage` for coordination
 
 2. **MULTI-SOURCE RESEARCH**: Gather intelligence using all available resources:
-   - **Context7 MCP**: Search for intel on specific products, platforms, technologies
+   - **Context7 MCP**: Search for intel on specific products, platforms, technologies (add Context7 MCP if not available)
    - **WebSearch**: Search for latest best practices, error patterns, and solutions
    - **Codebase Analysis**: Use Grep, Glob, Read tools to understand current state
    - **GitHub Integration**: Check issues, PRs, workflow history using `gh` commands
@@ -25,7 +25,7 @@ Enhanced protocol with research capabilities and proven implementation-first str
    - Store research results in swarm memory for coordination
 
 ## 🎯 PHASE 2: Implementation-First Strategy
-4. **IMPLEMENTATION-FIRST FIXES**: Apply proven methodology that achieved 4x 100% test success:
+4. **IMPLEMENTATION-FIRST FIXES**: Apply proven methodology that achieves 100% test success:
    - Fix actual implementation logic rather than relaxing test expectations
    - Handle both edge cases and main use cases simultaneously  
    - Use realistic thresholds for test environment while maintaining production standards
@@ -61,3 +61,9 @@ Enhanced protocol with research capabilities and proven implementation-first str
    - Apply lessons learned from previous iterations
    - Scale swarm size based on problem complexity
    - Maintain coordination through Claude Flow memory across iterations
+
+## 🏆 SUCCESS METRICS:
+- Target: 100% test success for critical components
+- Monitor: Memory usage, performance thresholds, code coverage
+- Document: Methodologies that achieve breakthrough results
+- Coordinate: All agents use swarm memory and hooks for alignment
