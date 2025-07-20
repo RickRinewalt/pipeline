@@ -21,7 +21,7 @@ Enhanced protocol with research capabilities and proven implementation-first str
 3. **SYSTEMATIC ANALYSIS**: Apply proven analysis patterns:
    - Identify root causes vs symptoms
    - Categorize issues by severity and component
-   - Document findings in GitHub issues with proper labels
+   - Document findings in GitHub issues with proper labels (check what labels are available, add new labels if required before creating/modifying issues)
    - Store research results in swarm memory for coordination
 
 ## 🎯 PHASE 2: Implementation-First Strategy
