@@ -1,11 +1,5 @@
 > Append following to CLAUDE.md:
 
-## Protocols (a.k.a. YOLO Protocols)
-Standard protocols executed on request, e.g. "Initialize CI protocol": 
-
-### Agile Delivery Protocols
-Deliver work in manageable chunks through fully automated pipelines.
-
 #### Work Chunking Protocol (WCP)
 Feature-based agile development with CI integration using EPICs, Features, and Issues with coordinated swarm approach:
 
@@ -26,8 +20,28 @@ Feature-based agile development with CI integration using EPICs, Features, and I
    - Linked to parent feature
    - Priority labeled (high/medium/low)
 
-##### 🔗 PHASE 2: GitHub Structure
-4. **EPIC TEMPLATE**:
+##### 🔗 PHASE 2: GitHub Structure & Sub-Issues
+4. **CREATE PROPER SUB-ISSUES** (GitHub CLI + GraphQL):
+   ```bash
+   # 1. Create issues normally
+   gh issue create --title "Parent Feature" --body "Description"
+   gh issue create --title "Sub-Issue Task" --body "Description"
+   
+   # 2. Get GraphQL IDs  
+   gh api graphql --header 'X-Github-Next-Global-ID:1' -f query='
+   { repository(owner: "OWNER", name: "REPO") { 
+       issue(number: PARENT_NUM) { id }
+   }}'
+   
+   # 3. Add sub-issue relationship
+   gh api graphql --header 'X-Github-Next-Global-ID:1' -f query='
+   mutation { addSubIssue(input: {
+     issueId: "PARENT_GraphQL_ID"
+     subIssueId: "CHILD_GraphQL_ID"
+   }) { issue { id } subIssue { id } }}'
+   ```
+
+5. **EPIC TEMPLATE**:
    ```markdown
    # EPIC: [Name]
    
@@ -51,7 +65,7 @@ Feature-based agile development with CI integration using EPICs, Features, and I
    [List external dependencies]
    ```
 
-5. **FEATURE TEMPLATE**:
+6. **FEATURE TEMPLATE**:
    ```markdown
    # Feature: [Name]
    **Parent**: #[EPIC]
@@ -59,8 +73,8 @@ Feature-based agile development with CI integration using EPICs, Features, and I
    ## Description
    [What feature accomplishes]
    
-   ## Issues
-   - [ ] Issue 1: #[num] - [Status]
+   ## Sub-Issues (Proper GitHub hierarchy)
+   - [ ] Sub-Issue 1: #[num] - [Status]
    
    ## Acceptance Criteria
    - [ ] Functional requirements
