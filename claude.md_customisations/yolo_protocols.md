@@ -3,6 +3,9 @@
 ## Protocols (a.k.a. YOLO Protocols)
 Standard protocols executed on request, e.g. "Initialize CI protocol": 
 
+### Model Protocol
+Always use Claude Sonnet. Start every Claude session with `model /sonnet`.
+
 ### Agile Delivery Protocols
 Deliver work in manageable chunks through fully automated pipelines. The goal is to deliver features and keep going unattended (don't stop!) until the feature is fully deployed.
 
