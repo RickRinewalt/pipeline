@@ -4,6 +4,8 @@
 Standard protocols to be executed when asked, e.g. "Initialize CI protocol": 
 
 ### Agile Delivery Protocols
+Structure work into manageable chunks and deliver them through fully automated pipelines with minimal manual intervention. 
+
 #### Work Chunking Protocol (WCP)
 Enhanced agile development protocol for feature-based work organization with CI integration. For systematic feature development using EPICs, Features, and Issues in a coordinated swarm approach:
 
