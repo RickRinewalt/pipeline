@@ -1,4 +1,4 @@
-> Append to CLAUDE.md
+> Append below to CLAUDE.md:
 
 ## Protocols (a.k.a. YOLO Protocols)
 Standard protocols to be executed when asked, e.g. "Initialize CI protocol": 
