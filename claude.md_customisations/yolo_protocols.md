@@ -1,4 +1,5 @@
-# Claude.md customisations
+# CLAUDE.md customisations
+Copy/paste the below to the bottom of your CLAUDE.md file:
 
 ## Protocols (a.k.a. YOLO Protocols)
 Standard protocols to be executed when asked, e.g. "Initialize CI protocol": 
