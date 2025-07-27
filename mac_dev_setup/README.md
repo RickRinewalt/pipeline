@@ -23,9 +23,9 @@ I keep my devpod templates in a folder `_templates` in my devpods folder, e.g. `
 
 ## After creating a new devpod
 
+**Additional DevPod configuration**:
 If using `devpod-template1` (which is based on **https://github.com/jedarden/agentists-quickstart/tree/workspace/basic** with the addition of the `config-devpod.sh` script), do the following:
 
-**Additional DevPod configuration script**:
 - Run: `./.devcontainer/config-devpod.sh` which automatically sets up the environment accordingly (below provided for info, the script will take care of this):
 
     ```
