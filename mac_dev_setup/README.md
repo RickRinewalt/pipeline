@@ -1,7 +1,7 @@
 # Mac devpod setup guide
 
 ## Pre-requisites
-- Max OSX
+- Mac OS
 - Docker Desktop
 - DevPod
 - DevPod CLI
