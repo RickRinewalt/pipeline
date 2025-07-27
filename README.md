@@ -1,4 +1,6 @@
-# Shameless vibe-coding CI/CD pipeline: pod + Claude Code + ruvnet/claude-flow + YOLO protocols
+# Shameless vibe-coding CI/CD pipeline
+
+## pod + Claude Code + ruvnet/claude-flow + YOLO protocols
 **Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
 
 The main requirements in my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
@@ -25,10 +27,16 @@ If you dont mind getting a little technical and are looking for something a bit 
 ### Claude Code
 - Autonomous coding agent (npm package) - https://docs.anthropic.com/en/docs/claude-code/overview
 
+## ruvnet/claude-flow
+- Swarm-coding orchestration incorporating SPARC methodology (among other things) - https://github.com/ruvnet/claude-flow/
+
+## YOLO protocols (CLAUDE.md customisation)
+- Standard workflow protocols for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo_protocols.md
+
 ## Setup instructions
 
 ### Environment guidelines
-It is **highly recommended** to run claude code in an isolated environment, containers are perfect for this. These are two solid choices:
+It is **highly recommended** to run claude code in an isolated environment, containers (pods) are perfect for this. These are two solid choices:
 
 1. [**GitHub Codespaces**](https://github.com/features/codespaces) - A free cloud-based container service provided by Microsoft which is really easy to setup and use.
 2. [**DevPod**](https://devpod.sh/) - A codespace-like environment which you can run anywhere. A bit more involved to setup but has certain advantages.
@@ -47,3 +55,17 @@ DevPod is currently my preferred setup, but this is not for everyone. I run this
     * You run the commands from within the Terminal, which is accessible under **View / Terminal**.
     * Now you're basically running. Just ask Claude Code to do stuff.
 6. You will need to get familiar and comfortable with working with source control, committing changes to git and syncing to your remote repo on GitHub.
+
+### ruvnet/claude-flow
+- Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
+
+*Note: Ignore if you are using my mac setup, this is installed automatically.*
+
+### YOLO PROTOCOLS
+- Append contents of `yolo_protocols.md` to your `CLAUDE.md`.
+- Usage: YOLO protocols are carried out on request (read the file for details), protocols currently include:
+  - Work Chunking Protocol (WCP)
+  - Continuous Integration
+  - Continuous Deployment
+
+*Note: Ignore if you are using my mac setup, this is installed automatically.*
