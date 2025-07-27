@@ -21,16 +21,13 @@ If you dont mind getting a little technical and are looking for something a bit 
 ### GitHub
 - Code repository - https://github.com/
 
-### GitHub Codespace
-- Cloud container based IDE - https://code.visualstudio.com/docs/remote/codespaces
-
 ### Claude Code
 - Autonomous coding agent (npm package) - https://docs.anthropic.com/en/docs/claude-code/overview
 
-## ruvnet/claude-flow
+### ruvnet/claude-flow
 - Swarm-coding orchestration incorporating SPARC methodology (among other things) - https://github.com/ruvnet/claude-flow/
 
-## YOLO protocols (CLAUDE.md customisations)
+### YOLO protocols (CLAUDE.md customisations)
 - Standard workflow protocols for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo_protocols.md
 
 ## Setup instructions
