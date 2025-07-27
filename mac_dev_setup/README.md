@@ -35,5 +35,5 @@ If using `devpod-template1` (which is based on **https://github.com/jedarden/age
     curl -sL https://raw.githubusercontent.com/cgbarlow/pipeline/main/claude.md_customisations/yolo_protocols.md >> CLAUDE.md
     ```
 
-2. Next, create a PAT in GitHub for the repo you're working with.
-3. Run `claude`, and prompt: `authenticate to github CLI with the following PAT:` then paste it in. 
+  2. Generate a PAT in GitHub for the specific repo you're working with, ask Claude how to do this if you're not sure how.
+  3. Run claude, and prompt: authenticate to github CLI with the following PAT: then paste it in.
