@@ -55,17 +55,27 @@ DevPod is currently my preferred setup, but this is not for everyone.
     * You run the commands from within the Terminal, which is accessible under **View / Terminal**.
     * Now you're basically running. Just ask Claude Code to do stuff.
 5. You will need to get familiar and comfortable with working with source control, committing changes to git and syncing to your remote repo on GitHub.
-6. **ruvnet/claude-flow**
+6. **ruvnet/claude-flow**:
     - Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
-7. **YOLO protocols**
+7. **YOLO protocols**:
     - Append contents of `yolo_protocols.md` to your `CLAUDE.md`.
     - Usage: YOLO protocols are carried out on request (read the file for details), protocols currently include:
       - Work Chunking Protocol (WCP)
       - Continuous Integration
       - Continuous Deployment
+8. **Github CLI authentication**:
+      - Generate a PAT in GitHub for the specific repo you're working with, ask Claude how to do this if you're not sure how.
+      - Run claude, and prompt: authenticate to github CLI with the following PAT: then paste it in.
 
 ### Option 2. DevPod setup
 - Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
 - This includes automated setup of claude-flow and YOLO protocols, among other things.
 
+## Examples
+Typical prompts I use:
 
+Research:
+`npx claude-flow@alpha swarm "Research topic x, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"`
+
+Specification:
+`npx claude-flow@alpha swarm "Based on research
