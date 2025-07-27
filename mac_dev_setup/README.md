@@ -12,9 +12,9 @@ Scripts are located in `Users > [user] > Scripts`, can run from anywhere:
 - `devpod-create.sh` - *Creates a new DevPod from templates with interactive provider and IDE selection.*
 - `devpod-select.sh` - *Lists existing DevPods with status indicators and allows SSH connection, stopping, or deletion.*
 
-**IMPORTANT NOTE:** Ensure you update `TEMPLATES_DIR` and `DEVPODS_DIR` variables according to your environment!
-
 Copy the scripts above to your `Scripts` folder. If you don't know the commands to allow these to run from anywhere, install claude code and ask it to: `allow me to run the scripts in folder x from anywhere`.
+
+* **IMPORTANT NOTE:** Ensure you update `TEMPLATES_DIR` and `DEVPODS_DIR` variables according to your environment!*
 
 ## DevPods location
 I keep a folder under `Users > [user] >` called `devpods` where all my devpods live.
