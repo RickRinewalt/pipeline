@@ -38,7 +38,7 @@ It is **highly recommended** to run claude code in an isolated environment, cont
 1. [**GitHub Codespaces**](https://github.com/features/codespaces) - A free cloud-based container service provided by Microsoft which is really easy to setup and use.
 2. [**DevPod**](https://devpod.sh/) - A codespace-like environment which you can run anywhere. A bit more involved to setup but has certain advantages.
   
-DevPod (the genericized version of Codespaces - see Side Note*) is currently my preferred setup, but this is not for everyone. It simply enables you to use your existing `devcontainer.json` spec in platforms beyond Codespaces—your laptop, local Docker, cloud, remote VM, Kubernetes cluster, etc. ([github.com][1], [loft.sh][2]).
+DevPod (the genericized version of Codespaces - see Side Note[*](#side-note-on-codespaces-vs-devpod)) is currently my preferred setup, but this is not for everyone. It simply enables you to use your existing `devcontainer.json` spec in platforms beyond Codespaces—your laptop, local Docker, cloud, remote VM, Kubernetes cluster, etc. ([github.com][1], [loft.sh][2]).
 
 ### Claude Code setup
 1. Subscribe to **Claude Code**.
