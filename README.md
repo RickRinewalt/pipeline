@@ -73,7 +73,7 @@ DevPod is currently my preferred setup, but this is not for everyone.
 
 ## Examples
 Typical prompts I use:
-
+ 
 Research:
 `npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"`
 
