@@ -18,7 +18,7 @@ Copy the scripts above to your `Scripts` folder. If you don't know the commands 
 
 If using `devpod-template1` (which is based on **https://github.com/jedarden/agentists-quickstart/tree/workspace/basic** with the addition of the `config-devpod.sh` script), do the following:
 
-1. `./.devcontainer/config-devpod.sh` which set up the environment accordingly:
+1. Run: `./.devcontainer/config-devpod.sh` which automatically sets up the environment accordingly (below provided for info, the script will take care of this):
 
     ```
     ./.devcontainer/install-tools.sh
