@@ -14,6 +14,11 @@ Scripts are located in `Users > [user] > Scripts`, can run from anywhere:
 
 Copy the scripts above to your `Scripts` folder. If you don't know the commands to allow these to run from anywhere, install claude code and ask it to: `allow me to run the scripts in folder x from anywhere`.
 
+## DevPods location
+I keep a folder under `Users > [user] >` called `devpods` where all my devpods live.
+
+I keep my devpod templates in a folder `_templates` in my devpods folder, e.g. `Users > [user] > devpods > _templates > devpod-template1`.
+
 ## After creating a new devpod
 
 If using `devpod-template1` (which is based on **https://github.com/jedarden/agentists-quickstart/tree/workspace/basic** with the addition of the `config-devpod.sh` script), do the following:
