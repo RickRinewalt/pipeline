@@ -9,6 +9,7 @@ NC='\033[0m' # No Color
 REVERSE='\033[7m'
 
 # Directories
+# !! Update directories according to your environment !!
 TEMPLATES_DIR="/Users/chris/devpods/_templates"
 DEVPODS_DIR="/Users/chris/devpods"
 
