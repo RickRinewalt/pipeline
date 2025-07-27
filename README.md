@@ -7,7 +7,7 @@ The main requirements in my search for an agentic coding setup are sustainabilit
 
 I'm making awesome progress with my projects, while paying a flat monthly fee for the best coding model available. I can rely on this system to give me the outcome I want without it losing the plot (much).
 
-Thanks to Waylon for sharing your discoveries!
+Thanks to Waylon for sharing your early discoveries!
 
 ## Who this is for
 If you are just wanting something easy to help you prototype an idea then you might be better off with https://v0.dev/ or https://lovable.dev/. 
