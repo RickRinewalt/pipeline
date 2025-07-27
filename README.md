@@ -38,20 +38,26 @@ It is **highly recommended** to run claude code in an isolated environment, cont
 1. [**GitHub Codespaces**](https://github.com/features/codespaces) - A free cloud-based container service provided by Microsoft which is really easy to setup and use.
 2. [**DevPod**](https://devpod.sh/) - A codespace-like environment which you can run anywhere. A bit more involved to setup but has certain advantages.
   
-DevPod is currently my preferred setup, but this is not for everyone. I run this on my mac mini, I've documented the environment setup [here](./mac_dev_setup).
+DevPod is currently my preferred setup, but this is not for everyone.
 
-### Claude setup
+### Claude Code setup
 1. Subscribe to **Claude Code**.
-2. Create a repo in GitHub, tick the box that creates a **README.md**
-3. Install **VS Code**.
-4. You need a development environment. Easiest way is to start with a codespace.
+
+### Option 1. Codespace setup
+
+1. Create a repo in GitHub, tick the box that creates a **README.md**
+2. Install **VS Code**.
+3. You need a development environment. Easiest way is to start with a codespace.
     * On the welcome screen of VS Code, select the option for **Connect to**, then select **Create New Codespace**.
     * If you are not already authenticated to GitHub you should be prompted to do that.
     * Now select the repo you just created from the drop-down. The codespace will spin up and clone the remote repo to the codespace.
-5. Now install **Claude Code** in the codespace inside VS Code, by following the *Getting started in 30 seconds* instructions: https://docs.anthropic.com/en/docs/claude-code/overview
+4. Now install **Claude Code** in the codespace inside VS Code, by following the *Getting started in 30 seconds* instructions: https://docs.anthropic.com/en/docs/claude-code/overview
     * You run the commands from within the Terminal, which is accessible under **View / Terminal**.
     * Now you're basically running. Just ask Claude Code to do stuff.
-6. You will need to get familiar and comfortable with working with source control, committing changes to git and syncing to your remote repo on GitHub.
+5. You will need to get familiar and comfortable with working with source control, committing changes to git and syncing to your remote repo on GitHub.
+
+### Option 2. DevPod setup
+- Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
 
 ### ruvnet/claude-flow
 - Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
