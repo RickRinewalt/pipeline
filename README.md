@@ -59,7 +59,7 @@ DevPod is currently my preferred setup, but this is not for everyone. I run this
 ### ruvnet/claude-flow
 - Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
 
-*Note: Ignore if you are using my mac setup, this is installed automatically.*
+  *Note: Ignore if you are using my mac setup, this is installed automatically.*
 
 ### YOLO PROTOCOLS
 - Append contents of `yolo_protocols.md` to your `CLAUDE.md`.
@@ -68,4 +68,4 @@ DevPod is currently my preferred setup, but this is not for everyone. I run this
   - Continuous Integration
   - Continuous Deployment
 
-*Note: Ignore if you are using my mac setup, this is installed automatically.*
+  *Note: Ignore if you are using my mac setup, this is installed automatically.*
