@@ -56,13 +56,13 @@ DevPod is currently my preferred setup, but this is not for everyone.
     * Now you're basically running. Just ask Claude Code to do stuff.
 5. You will need to get familiar and comfortable with working with source control, committing changes to git and syncing to your remote repo on GitHub.
 6. **ruvnet/claude-flow**
-  - Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
+    - Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
 7. **YOLO PROTOCOLS**
-  - Append contents of `yolo_protocols.md` to your `CLAUDE.md`.
-  - Usage: YOLO protocols are carried out on request (read the file for details), protocols currently include:
-    - Work Chunking Protocol (WCP)
-    - Continuous Integration
-    - Continuous Deployment
+    - Append contents of `yolo_protocols.md` to your `CLAUDE.md`.
+    - Usage: YOLO protocols are carried out on request (read the file for details), protocols currently include:
+      - Work Chunking Protocol (WCP)
+      - Continuous Integration
+      - Continuous Deployment
 
 ### Option 2. DevPod setup
 - Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
