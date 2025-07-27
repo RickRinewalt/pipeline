@@ -26,7 +26,7 @@ I keep my devpod templates in a folder `_templates` in my devpods folder, e.g. `
 If using `devpod-template1` (which is based on **https://github.com/jedarden/agentists-quickstart/tree/workspace/basic** with the addition of the `config-devpod.sh` script), do the following:
 
 **Additional DevPod configuration script**:
-1. Run: `./.devcontainer/config-devpod.sh` which automatically sets up the environment accordingly (below provided for info, the script will take care of this):
+- Run: `./.devcontainer/config-devpod.sh` which automatically sets up the environment accordingly (below provided for info, the script will take care of this):
 
     ```
     ./.devcontainer/install-tools.sh
@@ -37,5 +37,5 @@ If using `devpod-template1` (which is based on **https://github.com/jedarden/age
     ```
 
 **GitHub CLI authentiation**:
-2. Generate a PAT in GitHub for the specific repo you're working with, ask Claude how to do this if you're not sure how.
-3. Run claude, and prompt: authenticate to github CLI with the following PAT: then paste it in.
+- Generate a PAT in GitHub for the specific repo you're working with, ask Claude how to do this if you're not sure how.
+- Run claude, and prompt: authenticate to github CLI with the following PAT: then paste it in.
