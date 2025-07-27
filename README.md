@@ -14,7 +14,7 @@ If you are just wanting something easy to help you prototype an idea then you mi
 
 If you dont mind getting a little technical and are looking for something a bit more robust, then this is the way.
 
-## Components
+## Common Components
 ### Visual Studio Code (VS Code)
 - Our code editor - https://code.visualstudio.com/
 
