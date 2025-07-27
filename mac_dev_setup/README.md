@@ -1,5 +1,11 @@
 # Mac devpod setup guide
 
+## Pre-requisites
+- Max OSX
+- Docker Desktop
+- DevPod
+- DevPod CLI
+
 ## Commands
 Scripts are located in `Users > [user] > Scripts`, can run from anywhere:
 
