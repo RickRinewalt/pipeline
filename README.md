@@ -26,6 +26,16 @@ If you dont mind getting a little technical and are looking for something a bit 
 - Autonomous coding agent (npm package) - https://docs.anthropic.com/en/docs/claude-code/overview
 
 ## Setup instructions
+
+### Environment guidelines
+It is **highly recommended** to run claude code in an isolated environment, containers are perfect for this. These are two solid choices:
+
+1. (**GitHub Codespaces**)[https://github.com/features/codespaces] - A free cloud-based container service provided by Microsoft which is really easy to setup and use.
+2. (**DevPod**)[https://devpod.sh/] - A codespace-like environment which you can run anywhere. A bit more involved to setup but has certain advantages.
+  
+DevPod is currently my preferred setup, but this is not for everyone. I run this on my mac mini, I've documented the environment setup (here)[./mac_dev_setup].
+
+### Claude setup
 1. Subscribe to **Claude Code**.
 2. Create a repo in GitHub, tick the box that creates a **README.md**
 3. Install **VS Code**.
