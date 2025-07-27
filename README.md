@@ -1,4 +1,4 @@
-# Shameless vibe-coding CI/CD pipeline - Vanilla Claude Code version
+# Shameless vibe-coding CI/CD pipeline: pod + Claude Code + ruvnet/claude-flow + YOLO protocols
 **Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
 
 The main requirements in my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
