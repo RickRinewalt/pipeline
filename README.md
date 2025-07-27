@@ -38,7 +38,7 @@ It is **highly recommended** to run claude code in an isolated environment, cont
 1. [**GitHub Codespaces**](https://github.com/features/codespaces) - A free cloud-based container service provided by Microsoft which is really easy to setup and use.
 2. [**DevPod**](https://devpod.sh/) - A codespace-like environment which you can run anywhere. A bit more involved to setup but has certain advantages.
   
-DevPod is currently my preferred setup, but this is not for everyone.
+DevPod (the genericized version of Codespaces - see Side Note*) is currently my preferred setup, but this is not for everyone. It simply enables you to use your existing `devcontainer.json` spec in platforms beyond Codespaces—your laptop, local Docker, cloud, remote VM, Kubernetes cluster, etc. ([github.com][1], [loft.sh][2]).
 
 ### Claude Code setup
 1. Subscribe to **Claude Code**.
@@ -93,3 +93,14 @@ Rapid development:
 ```
 npx claude-flow@alpha swarm "Review all the open issues and crack on with deploying the project feature-by-feature, following the full YOLO protocols. When completing features, always follow CI/CD; branch, PR, merge if you can, sync, repeat. Keep going and don't stop! Good luck on your mission 🫡"
 ```
+
+## Side Note on Codespaces vs DevPod 
+* DevPod is built around the **open `devcontainer.json` standard**—the same standard used by both GitHub Codespaces and VS Code Remote Containers. It takes that configuration file and runs your environment anywhere: locally, in a cloud VM, over SSH, or even on Kubernetes ([github.com][1]).
+* DevPod is an open‑source, provider‑agnostic implementation of the **devcontainer** standard.
+
+In summary:
+* **GitHub Codespaces** is a hosted service built around `devcontainer.json`.
+* **DevPod** also uses `devcontainer.json`, but gives you full control over where and how they run—making it a flexible **alternative to relying on devcontainers being hosted in Codespaces**.
+
+[1]: https://github.com/loft-sh/devpod?utm_source=chatgpt.com "loft-sh/devpod: Codespaces but open-source, client-only ... - GitHub"
+[2]: https://www.loft.sh/blog/introducing-devpod-codespaces-but-open-source?utm_source=chatgpt.com "Introducing DevPod: Open Source Alternative to Codespaces - Loft.sh"
