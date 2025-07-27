@@ -86,7 +86,7 @@ npx claude-flow@alpha swarm "Based on research in issue X, expand on this with f
 
 Specification and planning:
 ```
-npx claude-flow@alpha swarm "Based on issue x, following your recommendations generate a detailed technical specification. Based on the specification, using YOLO WCP create an Epic, with linked Features, and sub-tasks for the entire project, and keep going and don't stop until all the planning is done. Go the swarm!"
+npx claude-flow@alpha swarm "Based on issue X, following your recommendations generate a detailed technical specification. Based on the specification, using YOLO WCP create an Epic, with linked Features, and sub-tasks for the entire project, and keep going and don't stop until all the planning is done. Go the swarm!"
 ```
 
 Rapid development:
