@@ -38,7 +38,7 @@ If you dont mind getting a little technical and are looking for something a bit 
 
 ### (Optional) Continuous Deployment service (e.g. Netlify, Vercel)
 - Both Netlify and Vercel are cloud platforms that automatically deploy and host web applications from your code repository with built-in features like continuous deployment, serverless functions, and global CDN distribution.
-- What does Continuous Deployment mean? Put simply, once its all setup properly, whenever you commit some changes to your repo, Netlify/Vercel will pick up on the change and deploy it to your site, automatically!
+- What does Continuous Deployment mean? Put simply, once it's all setup properly, whenever you commit some changes to your repo Netlify/Vercel will magically pick up on the change and deploy it to your site, automatically!
     See:
     - https://www.netlify.com (my personal preference - simply because it was the first one I tried and it worked for me)
     - https://vercel.com
