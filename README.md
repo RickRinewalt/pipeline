@@ -36,6 +36,13 @@ If you dont mind getting a little technical and are looking for something a bit 
 ### YOLO protocols (CLAUDE.md customisations)
 - Standard workflow protocols for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo_protocols.md
 
+### (Optional) Continuous Deployment service (e.g. Netlify, Vercel)
+- Both Netlify and Vercel are cloud platforms that automatically deploy and host web applications from your code repository with built-in features like continuous deployment, serverless functions, and global CDN distribution.
+- What does Continuous Deployment mean? Put simply, once its all setup properly, whenever you commit some changes to your repo, Netlify/Vercel will pick up on the change and deploy it to your site, automatically!
+    See:
+    - https://www.netlify.com (my personal preference - simply because it was the first one I tried and it worked for me)
+    - https://vercel.com
+
 ## Setup instructions
 
 ### Environment guidelines
@@ -45,6 +52,17 @@ It is **highly recommended** to run claude code in an isolated environment, cont
 2. [**DevPod**](https://devpod.sh/) - A codespace-like environment which you can run anywhere. A bit more involved to setup but has certain advantages.
   
 DevPod (the genericized version of Codespaces - see Side Note[*](#side-note-on-codespaces-vs-devpod)) is currently my preferred setup, but this is not for everyone. It simply enables you to use your existing `devcontainer.json` spec in platforms beyond Codespaces—your laptop, local Docker, cloud, remote VM, Kubernetes cluster, etc. ([github.com][1], [loft.sh][2]).
+
+#### Side Note on Codespaces vs DevPod 
+* DevPod is built around the **open `devcontainer.json` standard**—the same standard used by both GitHub Codespaces and VS Code Remote Containers. It takes that configuration file and runs your environment anywhere: locally, in a cloud VM, over SSH, or even on Kubernetes ([github.com][1]).
+* DevPod is an open‑source, provider‑agnostic implementation of the **devcontainer** standard.
+
+In summary:
+* **GitHub Codespaces** is a hosted service built around `devcontainer.json`.
+* **DevPod** also uses `devcontainer.json`, but gives you full control over where and how they run—making it a flexible **alternative to relying on devcontainers being hosted in Codespaces**.
+
+[1]: https://github.com/loft-sh/devpod?utm_source=chatgpt.com "loft-sh/devpod: Codespaces but open-source, client-only ... - GitHub"
+[2]: https://www.loft.sh/blog/introducing-devpod-codespaces-but-open-source?utm_source=chatgpt.com "Introducing DevPod: Open Source Alternative to Codespaces - Loft.sh"
 
 ### Claude Code setup
 1. Subscribe to **Claude Code**.
@@ -107,16 +125,14 @@ npx claude-flow@alpha swarm "Review all the open issues and crack on with deploy
 
 ```
 
-## Side Note on Codespaces vs DevPod 
-* DevPod is built around the **open `devcontainer.json` standard**—the same standard used by both GitHub Codespaces and VS Code Remote Containers. It takes that configuration file and runs your environment anywhere: locally, in a cloud VM, over SSH, or even on Kubernetes ([github.com][1]).
-* DevPod is an open‑source, provider‑agnostic implementation of the **devcontainer** standard.
+### (Options) Continuous Deployment setup
+- When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
 
-In summary:
-* **GitHub Codespaces** is a hosted service built around `devcontainer.json`.
-* **DevPod** also uses `devcontainer.json`, but gives you full control over where and how they run—making it a flexible **alternative to relying on devcontainers being hosted in Codespaces**.
+    ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
 
-[1]: https://github.com/loft-sh/devpod?utm_source=chatgpt.com "loft-sh/devpod: Codespaces but open-source, client-only ... - GitHub"
-[2]: https://www.loft.sh/blog/introducing-devpod-codespaces-but-open-source?utm_source=chatgpt.com "Introducing DevPod: Open Source Alternative to Codespaces - Loft.sh"
+- Select **GitHub** and enter your repo.
+- Once Netlify is setup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
+- If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
 
 ## Contributing
 Feel free to add any requests or feedback by creating a new **Issue**. If you would like to contribute directly, PRs will be happily considered 🙏
