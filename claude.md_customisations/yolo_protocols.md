@@ -127,7 +127,7 @@ Feature-based agile with CI integration using EPICs, Features, and Issues:
 Fix→Test→Commit→Push→Monitor→Repeat until 100%:
 
 ##### 🔬 PHASE 1: Research
-1. **SWARM**: Deploy researcher/analyst/detective via `mcp__claude-flow__swarm_init`
+1. **SWARM**: Deploy researcher/analyst/detective via `mcp__ruv-swarm__swarm_init`
 
 2. **SOURCES**: Context7 MCP, WebSearch, Codebase analysis, GitHub
 
