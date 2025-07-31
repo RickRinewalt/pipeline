@@ -83,21 +83,25 @@ Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md
 ### Quick examples
 Typical prompts I use:
  
-🔍 Research:
+🔍 **Research:**
+```bash
+npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"
+```
 
-> ```npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"```
+⚙️ **Technical options analysis:**
+```bash
+npx claude-flow@alpha swarm "Based on research in issue X, expand on this with further research and technical options analysis. Explore a range of different approaches and variations, and provide your recommendations based on the following criteria: Y. Swarm it up, only ever use the swarm to complete tasks. Follow YOLO WCP for task management
+```
 
-⚙️ Technical options analysis:
+📝 **Specification and planning:**
+```bash
+npx claude-flow@alpha swarm "Based on issue X, following your recommendations generate a detailed technical specification. Based on the specification, using YOLO WCP create an Epic, with linked Features, and sub-tasks for the entire project, and keep going and don't stop until all the planning is done. Go the swarm!"
+```
 
-> ```npx claude-flow@alpha swarm "Based on research in issue X, expand on this with further research and technical options analysis. Explore a range of different approaches and variations, and provide your recommendations based on the following criteria: Y. Swarm it up, only ever use the swarm to complete tasks. Follow YOLO WCP for task management```
-
-📝 Specification and planning:
-
-> ```npx claude-flow@alpha swarm "Based on issue X, following your recommendations generate a detailed technical specification. Based on the specification, using YOLO WCP create an Epic, with linked Features, and sub-tasks for the entire project, and keep going and don't stop until all the planning is done. Go the swarm!"```
-
-⚡ Rapid development:
-
-> ```npx claude-flow@alpha swarm "Review all the open issues and crack on with deploying the project feature-by-feature, following the full YOLO protocols. When completing features, always follow CI/CD; branch, PR, merge if you can, sync, repeat. Keep going and don't stop! Good luck on your mission 🫡"```
+⚡ **Rapid development:**
+```bash
+npx claude-flow@alpha swarm "Review all the open issues and crack on with deploying the project feature-by-feature, following the full YOLO protocols. When completing features, always follow CI/CD; branch, PR, merge if you can, sync, repeat. Keep going and don't stop! Good luck on your mission 🫡"
+```
 
 ## Side Note on Codespaces vs DevPod 
 * DevPod is built around the **open `devcontainer.json` standard**—the same standard used by both GitHub Codespaces and VS Code Remote Containers. It takes that configuration file and runs your environment anywhere: locally, in a cloud VM, over SSH, or even on Kubernetes ([github.com][1]).
