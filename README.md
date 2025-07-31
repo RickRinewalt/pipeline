@@ -125,7 +125,7 @@ npx claude-flow@alpha swarm "Review all the open issues and crack on with deploy
 
 ```
 
-### (Options) Continuous Deployment setup
+### (Optional) Continuous Deployment setup
 - When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
 
     ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
