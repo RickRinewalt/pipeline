@@ -111,4 +111,4 @@ In summary:
 [2]: https://www.loft.sh/blog/introducing-devpod-codespaces-but-open-source?utm_source=chatgpt.com "Introducing DevPod: Open Source Alternative to Codespaces - Loft.sh"
 
 ## Contributing
-Feel free to add any requests or feedback by creating a new **Issue**. If you would like to contribute directly, PRs will be happily considered 🙏.
+Feel free to add any requests or feedback by creating a new **Issue**. If you would like to contribute directly, PRs will be happily considered 🙏
