@@ -96,6 +96,15 @@ In summary:
 - Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
 - This includes automated setup of claude-flow and YOLO protocols, among other things.
 
+### (Optional) Continuous Deployment setup
+- When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
+
+    ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
+
+- Select **GitHub** and enter your repo.
+- Once Netlify is setup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
+- If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
+
 ## Usage 
 Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md) (thanks, Marc!)
 
@@ -125,15 +134,6 @@ npx claude-flow@alpha swarm "Based on issue X, following your recommendations ge
 npx claude-flow@alpha swarm "Review all the open issues and crack on with deploying the project feature-by-feature, following the full YOLO protocols. When completing features, always follow CI/CD; branch, PR, merge if you can, sync, repeat. Keep going and don't stop! Good luck on your mission 🫡"
 
 ```
-
-### (Optional) Continuous Deployment setup
-- When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
-
-    ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
-
-- Select **GitHub** and enter your repo.
-- Once Netlify is setup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
-- If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
 
 ## Contributing
 Feel free to add any requests or feedback by creating a new **Issue**. If you would like to contribute directly, PRs will be happily considered 🙏
