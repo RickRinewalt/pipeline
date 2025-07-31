@@ -67,7 +67,8 @@ In summary:
 ### Claude Code setup
 1. Subscribe to **Claude Code**.
 
-### Option 1. Codespace setup
+### Environment setup
+#### Option 1. Codespace
 
 1. Create a repo in GitHub, tick the box that creates a **README.md**
 2. Install **VS Code**.
@@ -91,11 +92,11 @@ In summary:
       - Generate a PAT in GitHub for the specific repo you're working with, ask Claude how to do this if you're not sure how.
       - Run claude, and prompt: authenticate to github CLI with the following PAT: then paste it in.
 
-### Option 2. DevPod setup
+#### Option 2. DevPod
 - Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
 - This includes automated setup of claude-flow and YOLO protocols, among other things.
 
-## Using claude-flow 
+## Usage 
 Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md) (thanks, Marc!)
 
 ### Quick examples
