@@ -13,6 +13,7 @@ Thanks to:
 - Waylon Kenning for sharing the discoveries on your agentic journey and unwavering encouragement
 - rUv and the Agentics Foundation for the tools and amazing community
 - Ravi Shamihoke for your energy and support!
+- Marc Vincent for the useful Claude-flow usage guide
 
 ## Who this is for
 If you are just wanting something easy to help you prototype an idea then you might be better off with https://v0.dev/ or https://lovable.dev/. 
@@ -76,7 +77,10 @@ DevPod (the genericized version of Codespaces - see Side Note[*](#side-note-on-c
 - Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
 - This includes automated setup of claude-flow and YOLO protocols, among other things.
 
-## Examples
+## Using claude-flow 
+Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md) (thanks, Marc!)
+
+### Examples
 Typical prompts I use:
  
 Research:
