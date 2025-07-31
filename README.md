@@ -1,9 +1,9 @@
 # Shameless vibe-coding CI/CD pipeline
 
 ## pod + Claude Code + ruvnet/claude-flow + YOLO protocols
-![YOLO!](https://media.tenor.com/qUbWFRNgCQQAAAAM/han-solo-star-wars.gif)
-
 **Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
+
+![YOLO!](https://media.tenor.com/qUbWFRNgCQQAAAAM/han-solo-star-wars.gif)
 
 The main requirements in my search for an agentic coding setup are sustainability and reliability, I have to say this delivers. 
 
