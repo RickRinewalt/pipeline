@@ -1,6 +1,6 @@
 # Shameless vibe-coding CI/CD pipeline
 
-## pod + Claude Code + ruvnet/claude-flow + YOLO protocols
+## Local/cloud container + Claude Code + ruvnet/claude-flow + YOLO protocols + Continuous Deployment on commit
 **Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
 
 ![YOLO!](https://media.tenor.com/qUbWFRNgCQQAAAAM/han-solo-star-wars.gif)
