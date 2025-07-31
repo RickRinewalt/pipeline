@@ -64,6 +64,12 @@ In summary:
 [1]: https://github.com/loft-sh/devpod?utm_source=chatgpt.com "loft-sh/devpod: Codespaces but open-source, client-only ... - GitHub"
 [2]: https://www.loft.sh/blog/introducing-devpod-codespaces-but-open-source?utm_source=chatgpt.com "Introducing DevPod: Open Source Alternative to Codespaces - Loft.sh"
 
+Ok. *Ready?*
+
+![Let's go!YOLO](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTF2dTdmcG5qNTZqYWZ2Mjd6d2V3bHE3ZmRhMGxkd2xoZ3lpaDQ3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aMh59aKR8vjdC/giphy.gif)
+
+***Let's gooooo!***
+
 ### Claude Code setup
 1. Subscribe to **Claude Code**.
 
