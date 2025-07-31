@@ -34,7 +34,7 @@ If you dont mind getting a little technical and are looking for something a bit 
 - Swarm-coding orchestration incorporating SPARC methodology (among other things) - https://github.com/ruvnet/claude-flow/
 
 ### YOLO protocols (CLAUDE.md customisations)
-- Standard workflow protocols for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo_protocols.md
+- Standard workflow protocols I've developed based on learnings for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo_protocols.md
 
 ### (Optional) Continuous Deployment service (e.g. Netlify, Vercel)
 - Both Netlify and Vercel are cloud platforms that automatically deploy and host web applications from your code repository with built-in features like continuous deployment, serverless functions, and global CDN distribution.
