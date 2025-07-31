@@ -80,7 +80,7 @@ DevPod (the genericized version of Codespaces - see Side Note[*](#side-note-on-c
 ## Using claude-flow 
 Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md) (thanks, Marc!)
 
-### Examples
+### Quick examples
 Typical prompts I use:
  
 Research:
