@@ -103,13 +103,18 @@ Ok. *Ready?*
 - This includes automated setup of claude-flow and YOLO protocols, among other things.
 
 ### (Optional) Continuous Deployment setup
+#### Option 1. Netlify
 - When you're ready to deploy, set up a **Netlify** account, and **import an existing project**.
 
     ![image](https://github.com/cgbarlow/pipeline/blob/main/netlify.png)
 
 - Select **GitHub** and enter your repo.
 - Once Netlify is setup, whenever you commit/sync to this repo in your Codespace, this will trigger a build in Netlify.
+- Get Claude to help you setup your project for Netlify.
 - If you have the same experience as me, you may experience some build errors in Netlify. I managed to fix this by pasting in the error messages back into Roo and we worked through the problem until the build process is successful.
+
+#### Option 2. Vercel
+🤷‍♂️
 
 ## Usage 
 Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md) (thanks, Marc!)
