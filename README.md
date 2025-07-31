@@ -84,13 +84,11 @@ Check out this [helpful guide to using claude-flow](./claude-flow-usage-guide.md
 Typical prompts I use:
  
 🔍 Research:
-```
-npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"
-```
+```npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"```
 
 ⚙️ Technical options analysis:
 ```
-npx claude-flow@alpha swarm "Based on research in issue X, expand on this with further research and technical options analysis. Explore a range of different approaches and variations, and provide your recommendations based on the following criteria: Y. Swarm it up, only ever use the swarm to complete tasks. Follow YOLO WCP for task management,
+npx claude-flow@alpha swarm "Based on research in issue X, expand on this with further research and technical options analysis. Explore a range of different approaches and variations, and provide your recommendations based on the following criteria: Y. Swarm it up, only ever use the swarm to complete tasks. Follow YOLO WCP for task management
 ```
 
 📝 Specification and planning:
