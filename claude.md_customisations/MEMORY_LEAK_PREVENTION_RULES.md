@@ -359,4 +359,4 @@ Message 3: Task("Agent 3")  // +50-100MB
 
 ---
 
-**Reference**: This file documents the resolution of GitHub Issue #61 - CRITICAL Task Tool Memory Leak. All rules above MUST be followed to prevent memory leaks and maintain system stability.
+**Usage**: All rules above MUST be followed to prevent memory leaks and maintain system stability.
