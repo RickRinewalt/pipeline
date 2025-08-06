@@ -304,7 +304,8 @@ class FileReferenceProtocol {
       error: result.error,
       code: result.code,
       timestamp: result.timestamp,
-      duration: result.duration
+      duration: result.duration,
+      protocol: 'file-reference-v1'
     };
   }
 
@@ -327,6 +328,29 @@ class FileReferenceProtocol {
     this.rateLimitMap.set(clientId, clientData);
     
     return true;
+  }
+
+  // Add missing formatResponse method
+  formatResponse(input) {
+    if (input.success !== false) {
+      return {
+        success: true,
+        path: input.path,
+        exists: input.exists,
+        metadata: input.metadata,
+        type: input.metadata && input.metadata.isDirectory ? 'directory' : 'file',
+        timestamp: new Date().toISOString()
+      };
+    } else {
+      return {
+        success: false,
+        error: {
+          code: input.code,
+          message: input.error
+        },
+        timestamp: new Date().toISOString()
+      };
+    }
   }
 
   // Integration methods for YOLO-PRO workflow
