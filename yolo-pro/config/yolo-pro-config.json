@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "name": "YOLO-PRO Enhancement Configuration",
+  "description": "Configuration for YOLO-PRO MVP solutions that complement existing workflows",
+  
+  "features": {
+    "versionCheck": {
+      "enabled": true,
+      "autoCheck": true,
+      "checkInterval": "daily",
+      "strict": false
+    },
+    "agentValidation": {
+      "enabled": true,
+      "preFlightCheck": true,
+      "capabilityMatching": true,
+      "performanceValidation": false
+    },
+    "relayMethod": {
+      "enabled": true,
+      "defaultTopology": "mesh",
+      "messageRetries": 3,
+      "timeout": 30000
+    },
+    "bashAliases": {
+      "enabled": true,
+      "autoComplete": true,
+      "colorOutput": true,
+      "sessionTracking": true
+    },
+    "commonContext": {
+      "enabled": true,
+      "crossSession": true,
+      "autoBackup": true,
+      "ttlDefault": null
+    },
+    "githubIntegration": {
+      "enabled": true,
+      "labelValidation": true,
+      "autoCreateLabels": true,
+      "templateSelection": true
+    },
+    "claudeMdIntegration": {
+      "enabled": true,
+      "autoBackup": true,
+      "validateImports": true,
+      "trackChanges": true
+    }
+  },
+  
+  "workflows": {
+    "preserveExisting": true,
+    "enhanceCommands": true,
+    "addValidation": true,
+    "contextTracking": true
+  },
+  
+  "compatibility": {
+    "backwardCompatible": true,
+    "preserveReadmePatterns": true,
+    "maintainSwarmCommands": true,
+    "keepOriginalAliases": false
+  },
+  
+  "integration": {
+    "claudeFlow": {
+      "version": ">=2.0.0",
+      "hooks": true,
+      "memory": true,
+      "neural": true
+    },
+    "github": {
+      "cli": true,
+      "api": true,
+      "webhooks": false
+    },
+    "swarm": {
+      "coordination": true,
+      "topology": ["mesh", "hierarchical", "star"],
+      "maxAgents": 54
+    }
+  },
+  
+  "defaults": {
+    "sessionTimeout": 3600000,
+    "maxRetries": 3,
+    "logLevel": "info",
+    "colorOutput": true,
+    "autoSave": true
+  },
+  
+  "paths": {
+    "workingDir": ".",
+    "configDir": ".yolo-pro",
+    "backupDir": ".yolo-pro/backups",
+    "contextDir": ".yolo-pro/context",
+    "logDir": ".yolo-pro/logs"
+  },
+  
+  "templates": {
+    "epic": "../templates/enhanced-epic.md",
+    "feature": "../templates/enhanced-feature.md",
+    "issue": "../templates/enhanced-issue.md"
+  },
+  
+  "labels": {
+    "standardSet": "yolo-pro",
+    "autoCreate": true,
+    "validate": true,
+    "suggest": true
+  }
+}

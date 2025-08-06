@@ -34,7 +34,7 @@ If using `devpod-template1` (which is based on **https://github.com/jedarden/age
     tmux new -t [result of: 'pwd | xargs basename']
     claude -dangerously-skip-permissions
     npx claude-flow@alpha init --force
-    curl -sL https://raw.githubusercontent.com/cgbarlow/pipeline/main/claude.md_customisations/yolo_protocols.md >> CLAUDE.md
+    curl -sL https://raw.githubusercontent.com/cgbarlow/pipeline/main/claude.md_customisations/yolo-pro_protocols.md >> CLAUDE.md
     ```
 
 **GitHub CLI authentiation**:

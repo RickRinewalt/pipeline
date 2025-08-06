@@ -1,6 +1,6 @@
 # Shameless vibe-coding CI/CD pipeline
 
-## Local/cloud container + Claude Code + ruvnet/claude-flow + YOLO protocols + Continuous Deployment on commit
+## Local/cloud container + Claude Code + ruvnet/claude-flow + YOLO-PRO protocols + Continuous Deployment on commit
 **Impatient and want to get started? Hit the [setup instructions](#setup-instructions) now!**
 
 ![YOLO!](https://media.tenor.com/qUbWFRNgCQQAAAAM/han-solo-star-wars.gif)
@@ -33,8 +33,8 @@ If you dont mind getting a little technical and are looking for something a bit 
 ### ruvnet/claude-flow
 - Swarm-coding orchestration incorporating SPARC methodology (among other things) - https://github.com/ruvnet/claude-flow/
 
-### YOLO protocols (CLAUDE.md customisations)
-- Standard workflow protocols I've developed based on learnings for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo_protocols.md
+### YOLO-PRO protocols (CLAUDE.md customisations)
+- Standard workflow protocols I've developed based on learnings for things like github issue creation for effective work tracking when using swarms, agile work chunking, and automated CI/CD process -  https://github.com/cgbarlow/pipeline/blob/main/claude.md_customisations/yolo-pro_protocols.md
 
 ### (Optional) Continuous Deployment service (e.g. Netlify, Vercel)
 - Both Netlify and Vercel are cloud platforms that automatically deploy and host web applications from your code repository with built-in features like continuous deployment, serverless functions, and global CDN distribution.
@@ -88,9 +88,9 @@ Ok. *Ready?*
 5. You will need to get familiar and comfortable with working with source control, committing changes to git and syncing to your remote repo on GitHub.
 6. **ruvnet/claude-flow**:
     - Follow initial setup instructions here: https://github.com/ruvnet/claude-flow/
-7. **YOLO protocols**:
-    - Append contents of `yolo_protocols.md` to your `CLAUDE.md`.
-    - Usage: YOLO protocols are carried out on request (read the file for details), protocols currently include:
+7. **YOLO-PRO protocols**:
+    - Append contents of `yolo-pro_protocols.md` to your `CLAUDE.md`.
+    - Usage: YOLO-PRO protocols are carried out on request (read the file for details), protocols currently include:
       - Work Chunking Protocol (WCP)
       - Continuous Integration
       - Continuous Deployment
@@ -100,7 +100,7 @@ Ok. *Ready?*
 
 #### Option 2. DevPod
 - Feel free to follow the setup I've documented for my mac development environment [here](./mac_dev_setup).
-- This includes automated setup of claude-flow and YOLO protocols, among other things.
+- This includes automated setup of claude-flow and YOLO-PRO protocols, among other things.
 
 ### (Optional) Continuous Deployment setup
 #### Option 1. Netlify
@@ -124,25 +124,25 @@ Typical prompts I use:
  
 🔍 **Research:**
 ```bash
-npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO WCP for task management, keep tasks and status up to date. Let's go!"
+npx claude-flow@alpha swarm "Research topic X, use a 3 agent swarm for the task, only ever use the swarm to complete tasks. Follow YOLO-PRO WCP for task management, keep tasks and status up to date. Let's go!"
 
 ```
 
 ⚙️ **Technical options analysis:**
 ```bash
-npx claude-flow@alpha swarm "Based on research in issue X, expand on this with further research and technical options analysis. Explore a range of different approaches and variations, and provide your recommendations based on the following criteria: Y. Swarm it up, only ever use the swarm to complete tasks. Follow YOLO WCP for task management
+npx claude-flow@alpha swarm "Based on research in issue X, expand on this with further research and technical options analysis. Explore a range of different approaches and variations, and provide your recommendations based on the following criteria: Y. Swarm it up, only ever use the swarm to complete tasks. Follow YOLO-PRO WCP for task management
 
 ```
 
 📝 **Specification and planning:**
 ```bash
-npx claude-flow@alpha swarm "Based on issue X, following your recommendations generate a detailed technical specification. Based on the specification, using YOLO WCP create an Epic, with linked Features, and sub-tasks for the entire project, and keep going and don't stop until all the planning is done. Go the swarm!"
+npx claude-flow@alpha swarm "Based on issue X, following your recommendations generate a detailed technical specification. Based on the specification, using YOLO-PRO WCP create an Epic, with linked Features, and sub-tasks for the entire project, and keep going and don't stop until all the planning is done. Go the swarm!"
 
 ```
 
 ⚡ **Rapid development:**
 ```bash
-npx claude-flow@alpha swarm "Review all the open issues and crack on with deploying the project feature-by-feature, following the full YOLO protocols. When completing features, always follow CI/CD; branch, PR, merge if you can, sync, repeat. Keep going and don't stop! Good luck on your mission 🫡"
+npx claude-flow@alpha swarm "Review all the open issues and crack on with deploying the project feature-by-feature, following the full YOLO-PRO protocols. When completing features, always follow CI/CD; branch, PR, merge if you can, sync, repeat. Keep going and don't stop! Good luck on your mission 🫡"
 
 ```
 

@@ -40,9 +40,9 @@ npx claude-flow@alpha init --force
 echo "   ✅ claude-flow initialized"
 echo ""
 
-# Step 5: Append yolo protocols to CLAUDE.md
-echo "5️⃣ Updating CLAUDE.md with yolo protocols..."
-curl -sL https://raw.githubusercontent.com/cgbarlow/pipeline/main/claude.md_customisations/yolo_protocols.md >> CLAUDE.md
+# Step 5: Append yolo-pro protocols to CLAUDE.md
+echo "5️⃣ Updating CLAUDE.md with yolo-pro protocols..."
+curl -sL https://raw.githubusercontent.com/cgbarlow/pipeline/main/claude.md_customisations/yolo-pro_protocols.md >> CLAUDE.md
 echo "   ✅ CLAUDE.md updated"
 echo ""
 
