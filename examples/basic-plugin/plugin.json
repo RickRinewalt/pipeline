@@ -1,0 +1,24 @@
+{
+  "name": "Basic Example Plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A basic example plugin demonstrating core modular architecture features",
+  "author": "YOLO-PRO Team",
+  "license": "MIT",
+  "category": "example",
+  "tags": ["example", "basic", "demo"],
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "provides": [
+    "basicService",
+    "exampleApi"
+  ],
+  "requires": [],
+  "config": {
+    "enableLogging": true,
+    "maxConnections": 10,
+    "apiEndpoint": "https://api.example.com"
+  }
+}
