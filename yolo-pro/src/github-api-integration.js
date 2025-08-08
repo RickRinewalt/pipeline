@@ -4,7 +4,6 @@
  */
 
 const { Octokit } = require('@octokit/rest');
-const { createAppAuth } = require('@octokit/auth-app');
 
 class GitHubAPIIntegration {
   constructor(options = {}) {
