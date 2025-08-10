@@ -117,7 +117,7 @@ Ok. *Ready?*
 🤷‍♂️
 
 ## Usage 
-Check out this [Un‐official Claude Flow Usage Guide ‐ Real‐World Patterns and Best Practices](./wiki/Un%E2%80%90official-Claude-Flow-Usage-Guide-%E2%80%90-Real%E2%80%90World-Patterns-and-Best-Practices) (thanks, Marc!)
+Check out this [Un‐official Claude Flow Usage Guide ‐ Real‐World Patterns and Best Practices](https://github.com/cgbarlow/pipeline/wiki/Un%E2%80%90official-Claude-Flow-Usage-Guide-%E2%80%90-Real%E2%80%90World-Patterns-and-Best-Practices) (thanks, Marc!)
 
 ### Quick examples
 Typical prompts I use:
