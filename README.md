@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Shameless vibe-coding CI/CD pipeline](#shameless-vibe-coding-cicd-pipeline)
+  - [Local/cloud container + Claude Code + ruvnet/claude-flow + YOLO-PRO protocols + Continuous Deployment on commit](#localcloud-container--claude-code--ruvnetclaude-flow--yolo-pro-protocols--continuous-deployment-on-commit)
+  - [Who this is for](#who-this-is-for)
+  - [Common Components](#common-components)
+    - [Visual Studio Code (VS Code)](#visual-studio-code-vs-code)
+    - [GitHub](#github)
+    - [Claude Code](#claude-code)
+    - [ruvnet/claude-flow](#ruvnetclaude-flow)
+    - [YOLO-PRO protocols (CLAUDE.md customisations)](#yolo-pro-protocols-claudemd-customisations)
+    - [(Optional) Continuous Deployment service (e.g. Netlify, Vercel)](#optional-continuous-deployment-service-eg-netlify-vercel)
+  - [Setup instructions](#setup-instructions)
+    - [Environment guidelines](#environment-guidelines)
+      - [Side Note on Codespaces vs DevPod](#side-note-on-codespaces-vs-devpod)
+    - [Claude Code setup](#claude-code-setup)
+    - [Environment setup](#environment-setup)
+      - [Option 1. Codespace](#option-1-codespace)
+      - [Option 2. DevPod](#option-2-devpod)
+    - [(Optional) Continuous Deployment setup](#optional-continuous-deployment-setup)
+      - [Option 1. Netlify](#option-1-netlify)
+      - [Option 2. Vercel](#option-2-vercel)
+  - [Usage](#usage)
+    - [Quick examples](#quick-examples)
+  - [Contributing](#contributing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Shameless vibe-coding CI/CD pipeline
 
 ## Local/cloud container + Claude Code + ruvnet/claude-flow + YOLO-PRO protocols + Continuous Deployment on commit
