@@ -6,6 +6,7 @@
 e.g. for reference, live example per below prompt
 
 [github_user]/[repo]/milestone/[x] = https://github.com/cgbarlow/pipeline/milestone/2
+
 [github_user]/[repo]/milestone/[y] = https://github.com/cgbarlow/pipeline/milestone/3
 
 ## Prompt
