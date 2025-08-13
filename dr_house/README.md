@@ -158,7 +158,7 @@ The Dr House Validator examines:
 
 ## 📋 Example Output
 
-Reference implementation: https://github.com/cgbarlow/price-guard/issues/90
+Reference implementation: https://github.com/cgbarlow/pipeline/issues/56
 
 The validator creates issues with:
 - Brutal honesty about implementation gaps
