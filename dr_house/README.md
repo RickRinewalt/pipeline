@@ -10,7 +10,7 @@ This repository contains the Dr House Validator system - a brutally honest valid
 - **`dr_house_issue_validation_protocol.md`** - Interactive prompt for single issue validation
 - **`dr_house_milestone_validation_protocol.md`** - Interactive prompt for milestone-wide validation
 
-Note: The protocol files are interactive - they will prompt you for URLs rather than requiring manual placeholder replacement.
+Note: The protocol files are interactive - they will prompt you for the information needed.
 
 ## 💊 High-Level Description
 
