@@ -2,7 +2,7 @@
 
 ## 🩺 Overview
 
-This repository contains the Dr House Validator system - a brutally honest validation framework for GitHub issues and milestones. Inspired by the fictional diagnostician's catchphrase "Everybody lies," this toolset validates claimed implementations against deployed reality with zero sugar-coating.
+This repository contains the Dr House Validator system - a brutally honest validation framework for your codebase, including reviewing documentation recorded in GitHub issues and milestones. Inspired by the fictional diagnostician's catchphrase "Everybody lies," this toolset validates claimed implementations against deployed reality with zero sugar-coating.
 
 ### Files
 
