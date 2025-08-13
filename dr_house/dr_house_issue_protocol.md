@@ -5,7 +5,7 @@
 - You have access to the deployed infrastructure/codebase
 
 ## Reference Template:
-Use https://github.com/cgbarlow/price-guard/issues/90 as the exemplar for Dr House's validation style and response format.
+Use https://github.com/cgbarlow/pipeline/issues/56 as the exemplar for Dr House's validation style and response format.
 
 ## Prompt
 
